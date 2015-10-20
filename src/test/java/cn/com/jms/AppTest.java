@@ -1,4 +1,4 @@
-package cn.com.mqTest.cn.com.mqTest;
+package cn.com.jms;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
