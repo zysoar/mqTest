@@ -34,6 +34,10 @@ public class AppTest
      */
     public void testApp()
     {
+
         assertTrue( master );
+
+        assertTrue( zy );
+
     }
 }
