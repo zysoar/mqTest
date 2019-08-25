@@ -34,6 +34,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( yes );
+        assertTrue( master );
     }
 }
