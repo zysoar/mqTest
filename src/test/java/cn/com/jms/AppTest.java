@@ -6,6 +6,7 @@ import junit.framework.TestSuite;
 
 /**
  * Unit test for simple App.
+ for you
  */
 public class AppTest 
     extends TestCase
@@ -33,6 +34,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue( yes );
     }
 }
