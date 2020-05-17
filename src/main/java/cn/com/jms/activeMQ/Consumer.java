@@ -35,7 +35,7 @@ public class Consumer extends Thread implements MessageListener {
         // default null  
 
         String usermaster=ActiveMQConnection.DEFAULT_USER;
-        String usermasteradd=ActiveMQConnection.DEFAULT_USER;
+        String usermasteradd2=ActiveMQConnection.DEFAULT_USER;
         String usermay2=ActiveMQConnection.DEFAULT_USER;
 
         // default null  
