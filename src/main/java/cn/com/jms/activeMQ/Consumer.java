@@ -33,9 +33,11 @@ public class Consumer extends Thread implements MessageListener {
      */  
     public ActiveMQConnectionFactory getConnectionFactory(){  
         // default null  
+
         String userMaster=ActiveMQConnection.DEFAULT_USER;
+
         // default null  
-        String password=ActiveMQConnection.DEFAULT_PASSWORD;  
+        String password=ActiveMQConnection.DEFAULT_PASSWORD;
         // default failover://tcp://localhost:61616  
         String url=ActiveMQConnection.DEFAULT_BROKER_URL;  
         return this.getConnectionFactory(user, password, url);  
