@@ -35,9 +35,9 @@ public class Consumer extends Thread implements MessageListener {
         // default null  
 
         String usermaster=ActiveMQConnection.DEFAULT_USER;
-=======
+
         String usermay2=ActiveMQConnection.DEFAULT_USER;
->>>>>>> may1
+
         // default null  
         String password=ActiveMQConnection.DEFAULT_PASSWORD;
         // default failover://tcp://localhost:61616  
