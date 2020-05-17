@@ -24,8 +24,9 @@ public class Consumer extends Thread implements MessageListener {
       
     private Session session;
     private Session session2;
+    private Session sessionMay;
     private Destination destination;  
-    private MessageProducer replyProducer;  
+    private MessageProducer replyProducer;
     /** 
      * @default 
      * @return org.apache.activemq.ActiveMQConnectionFactory 
