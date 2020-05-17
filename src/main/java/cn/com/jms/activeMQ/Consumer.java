@@ -22,7 +22,8 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 public class Consumer extends Thread implements MessageListener {  
   
       
-    private Session session;  
+    private Session session;
+    private Session session2;
     private Destination destination;  
     private MessageProducer replyProducer;  
     /** 
